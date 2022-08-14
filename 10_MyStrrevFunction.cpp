@@ -12,7 +12,7 @@ char *myStrrev (char *str)
 
     n = len - 1;
 
-    for (int i = 0; i <= (len / 2) - 1; i++, n--)
+    for (int i = 0; i < (len / 2); i++, n--)
     {
         temp = str[i];
         str [i] = str [n];
